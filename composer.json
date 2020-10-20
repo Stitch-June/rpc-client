@@ -7,5 +7,12 @@
             "email": "gaobinzhan@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "gaobinzhan/rpc": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gaobinzhan\\RpcClient\\": "src/"
+        }
+    }
 }
